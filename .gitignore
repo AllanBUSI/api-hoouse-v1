@@ -1,0 +1,36 @@
+# dotenv environment variables file
+.env
+.env.test
+.env.example
+# Dependency directories
+node_modules/
+# npm
+package-lock.json
+# yarn
+.yarnclean
+#yarn.lock
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# MacOS
+**/.DS_Store
+.vscode
+
+build/
+out/
+dist/
+
+tools/config.ini
+test.pdf
+
+ressources/dma_tmp/
+
+standalone
+
+public/image/photo-coach-sportif/
+ressources/mandat/
+ressources/cdd/
+ressources/convention/
+logs/
+public/sitemap.xml
