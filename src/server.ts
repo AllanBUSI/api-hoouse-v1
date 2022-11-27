@@ -43,11 +43,11 @@ app.use("/v1", router);
     httpServer.listen(PORT);
     console.log(`Serveur lancé sur le port ${PORT}`);
 
-    // CONNEXION BASE DE DONNEES
-    const dbConnected = await database();
-    if (!dbConnected.isInitialized) {
-      throw new Error("Base de données non connectée");
-    }
+    // // CONNEXION BASE DE DONNEES
+    // const dbConnected = await database();
+    // if (!dbConnected.isInitialized) {
+    //   throw new Error("Base de données non connectée");
+    // }
 
     console.log("Base de données connectée");
   } catch (error) {
